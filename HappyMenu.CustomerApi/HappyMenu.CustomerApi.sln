@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{28E6CBFF-5B2E-4AEE-8233-BB34B5C1344F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyMenu.CustomerApi.Domain", "HappyMenu.CustomerApi.Domain\HappyMenu.CustomerApi.Domain.csproj", "{0130F002-EFE6-4229-B8AF-91F7038E7309}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyMenu.CustomerApi.Data", "HappyMenu.CustomerApi.Data\HappyMenu.CustomerApi.Data.csproj", "{6EB028D7-C0C5-43D6-8BB2-47218B20FCF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{BCDC2B9C-6434-49BB-90A0-F00FA6066BAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyMenu.CustomerApi.Messaging.Send", "HappyMenu.CustomerApi.Messaging.Send\HappyMenu.CustomerApi.Messaging.Send.csproj", "{52ACD6F6-7D2B-424F-9A55-A9ED02E93EAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyMenu.CustomerApi.Service", "HappyMenu.CustomerApi.Service\HappyMenu.CustomerApi.Service.csproj", "{1B3C9CB4-D7F2-40F1-9469-5F9E2EEEAB2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyMenu.CustomerApi", "HappyMenu.CustomerApi\HappyMenu.CustomerApi.csproj", "{62EF3E07-E8F6-4D6E-BF5A-C7CDAF97236F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0130F002-EFE6-4229-B8AF-91F7038E7309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0130F002-EFE6-4229-B8AF-91F7038E7309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0130F002-EFE6-4229-B8AF-91F7038E7309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0130F002-EFE6-4229-B8AF-91F7038E7309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB028D7-C0C5-43D6-8BB2-47218B20FCF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB028D7-C0C5-43D6-8BB2-47218B20FCF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB028D7-C0C5-43D6-8BB2-47218B20FCF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB028D7-C0C5-43D6-8BB2-47218B20FCF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52ACD6F6-7D2B-424F-9A55-A9ED02E93EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52ACD6F6-7D2B-424F-9A55-A9ED02E93EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52ACD6F6-7D2B-424F-9A55-A9ED02E93EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52ACD6F6-7D2B-424F-9A55-A9ED02E93EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B3C9CB4-D7F2-40F1-9469-5F9E2EEEAB2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3C9CB4-D7F2-40F1-9469-5F9E2EEEAB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3C9CB4-D7F2-40F1-9469-5F9E2EEEAB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3C9CB4-D7F2-40F1-9469-5F9E2EEEAB2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62EF3E07-E8F6-4D6E-BF5A-C7CDAF97236F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EF3E07-E8F6-4D6E-BF5A-C7CDAF97236F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62EF3E07-E8F6-4D6E-BF5A-C7CDAF97236F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62EF3E07-E8F6-4D6E-BF5A-C7CDAF97236F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0130F002-EFE6-4229-B8AF-91F7038E7309} = {28E6CBFF-5B2E-4AEE-8233-BB34B5C1344F}
+		{6EB028D7-C0C5-43D6-8BB2-47218B20FCF0} = {28E6CBFF-5B2E-4AEE-8233-BB34B5C1344F}
+		{52ACD6F6-7D2B-424F-9A55-A9ED02E93EAD} = {28E6CBFF-5B2E-4AEE-8233-BB34B5C1344F}
+		{1B3C9CB4-D7F2-40F1-9469-5F9E2EEEAB2E} = {28E6CBFF-5B2E-4AEE-8233-BB34B5C1344F}
+		{62EF3E07-E8F6-4D6E-BF5A-C7CDAF97236F} = {28E6CBFF-5B2E-4AEE-8233-BB34B5C1344F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38D2E837-B4F6-4965-B659-C31FC58AC011}
+	EndGlobalSection
+EndGlobal
