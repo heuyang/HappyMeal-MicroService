@@ -5,11 +5,10 @@ using HappyMenu.CustomerApi.Domain.Entities;
 using HappyMenu.CustomerApi.Service.v1.Command;
 using Xunit;
 
-namespace HappyMenu.CustomerApi.Service.Test.v1.Command
+namespace CustomerApi.Service.Test.v1.Command
 {
     public class CreateCustomerCommandHandlerTests
     {
-
         private readonly CreateCustomerCommandHandler _testee;
         private readonly IRepository<Customer> _repository;
 
@@ -25,8 +24,6 @@ namespace HappyMenu.CustomerApi.Service.Test.v1.Command
             await _testee.Handle(new CreateCustomerCommand(), default);
 
             A.CallTo(() => _repository.AddAsync(A<Customer>._)).MustHaveHappenedOnceExactly();
-
-            A.CallTo(() => _repository.AddAsync(A<Customer>._)).MustHaveHappened();
         }
 
         [Fact]
@@ -42,6 +39,5 @@ namespace HappyMenu.CustomerApi.Service.Test.v1.Command
             result.Should().BeOfType<Customer>();
             result.FirstName.Should().Be("Yoda");
         }
-
     }
 }

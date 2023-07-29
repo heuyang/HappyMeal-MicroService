@@ -68,7 +68,7 @@
 
 //            var result = await _testee.Customer(_createCustomerModel);
 
-//            (result.Result as StatusCodeResult)?.StatusCode.Should().Be((int)HttpStatusCode.BadRequest);
+//            (result.Result as StatusCodeResult)?.StatusCode.Should().Be((int) HttpStatusCode.BadRequest);
 //            (result.Result as BadRequestObjectResult)?.Value.Should().Be(exceptionMessage);
 //        }
 
@@ -81,7 +81,7 @@
 
 //            var result = await _testee.Customer(_updateCustomerModel);
 
-//            (result.Result as StatusCodeResult)?.StatusCode.Should().Be((int)HttpStatusCode.BadRequest);
+//            (result.Result as StatusCodeResult)?.StatusCode.Should().Be((int) HttpStatusCode.BadRequest);
 //            (result.Result as BadRequestObjectResult)?.Value.Should().Be(exceptionMessage);
 //        }
 
@@ -90,7 +90,7 @@
 //        {
 //            var result = await _testee.Customer(_createCustomerModel);
 
-//            (result.Result as StatusCodeResult)?.StatusCode.Should().Be((int)HttpStatusCode.OK);
+//            (result.Result as StatusCodeResult)?.StatusCode.Should().Be((int) HttpStatusCode.OK);
 //            result.Value.Should().BeOfType<Customer>();
 //            result.Value.Id.Should().Be(_id);
 //        }
@@ -100,9 +100,9 @@
 //        {
 //            var result = await _testee.Customer(_updateCustomerModel);
 
-//            (result.Result as StatusCodeResult)?.StatusCode.Should().Be((int)HttpStatusCode.OK);
+//            (result.Result as StatusCodeResult)?.StatusCode.Should().Be((int) HttpStatusCode.OK);
 //            result.Value.Should().BeOfType<Customer>();
 //            result.Value.Id.Should().Be(_id);
 //        }
 //    }
-//}`
+//}

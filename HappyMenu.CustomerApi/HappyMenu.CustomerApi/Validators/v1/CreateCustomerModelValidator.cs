@@ -30,5 +30,6 @@ namespace HappyMenu.CustomerApi.Validators.v1
                 .InclusiveBetween(0, 150)
                 .WithMessage("The minimum age is 0 and the maximum age is 150 years");
         }
+
     }
 }

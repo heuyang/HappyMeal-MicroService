@@ -45,9 +45,9 @@ namespace CustomerApi
 
             services.AddAutoMapper(typeof(Startup));
 
-            //services.AddMvc().AddFluentValidation();
-            services.AddMvc();
-            services.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters();
+            services.AddMvc().AddFluentValidation();
+            //services.AddMvc();
+            //services.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters();
 
             services.AddSwaggerGen(c =>
             {
