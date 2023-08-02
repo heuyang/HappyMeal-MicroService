@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BDDA4960
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyMenu.OrderApi.Data", "Solution\HappyMenu.OrderApi.Data\HappyMenu.OrderApi.Data.csproj", "{49FE3796-172A-4CB0-965A-E6D1EBD79726}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyMenu.OrderApi.Messaging.Receive", "HappyMenu.OrderApi.Messaging.Receive\HappyMenu.OrderApi.Messaging.Receive.csproj", "{92D225EC-4C6D-4E5D-9830-1267961702FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyMenu.OrderApi.Service", "Solution\HappyMenu.OrderApi.Service\HappyMenu.OrderApi.Service.csproj", "{71BF6686-EAE0-40E1-8E94-2705513B963C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyMenu.OrderApi.Service", "HappyMenu.OrderApi.Service\HappyMenu.OrderApi.Service.csproj", "{61EB6FC7-FBBC-4593-9DD7-B04FAA04E48B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyMenu.OrderApi.Messaging.Receive", "Solution\HappyMenu.OrderApi.Messaging.Receive\HappyMenu.OrderApi.Messaging.Receive.csproj", "{E534AF11-5829-4724-BDA2-B45000BC4CE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,14 +29,14 @@ Global
 		{49FE3796-172A-4CB0-965A-E6D1EBD79726}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49FE3796-172A-4CB0-965A-E6D1EBD79726}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49FE3796-172A-4CB0-965A-E6D1EBD79726}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92D225EC-4C6D-4E5D-9830-1267961702FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92D225EC-4C6D-4E5D-9830-1267961702FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92D225EC-4C6D-4E5D-9830-1267961702FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92D225EC-4C6D-4E5D-9830-1267961702FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{61EB6FC7-FBBC-4593-9DD7-B04FAA04E48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61EB6FC7-FBBC-4593-9DD7-B04FAA04E48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61EB6FC7-FBBC-4593-9DD7-B04FAA04E48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61EB6FC7-FBBC-4593-9DD7-B04FAA04E48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71BF6686-EAE0-40E1-8E94-2705513B963C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BF6686-EAE0-40E1-8E94-2705513B963C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BF6686-EAE0-40E1-8E94-2705513B963C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BF6686-EAE0-40E1-8E94-2705513B963C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E534AF11-5829-4724-BDA2-B45000BC4CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E534AF11-5829-4724-BDA2-B45000BC4CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E534AF11-5829-4724-BDA2-B45000BC4CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E534AF11-5829-4724-BDA2-B45000BC4CE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,8 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{514DE1B7-F8B8-4E6F-9041-B307E2A0B0DB} = {FBB6EEA6-4FBA-40B4-860E-3DD1B0892688}
 		{49FE3796-172A-4CB0-965A-E6D1EBD79726} = {FBB6EEA6-4FBA-40B4-860E-3DD1B0892688}
-		{92D225EC-4C6D-4E5D-9830-1267961702FC} = {FBB6EEA6-4FBA-40B4-860E-3DD1B0892688}
-		{61EB6FC7-FBBC-4593-9DD7-B04FAA04E48B} = {FBB6EEA6-4FBA-40B4-860E-3DD1B0892688}
+		{71BF6686-EAE0-40E1-8E94-2705513B963C} = {FBB6EEA6-4FBA-40B4-860E-3DD1B0892688}
+		{E534AF11-5829-4724-BDA2-B45000BC4CE8} = {FBB6EEA6-4FBA-40B4-860E-3DD1B0892688}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62D601B7-1868-4318-92E1-C12489BEFBC3}
